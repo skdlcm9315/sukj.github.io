@@ -4,23 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HSJ's Portfolio</title>
-    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>HSJ's Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#about">About me</a>            </li>
+                <li><a href="#about">About me</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">projects</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-        </ul>
+            </ul>
         </nav>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
+        <p>안녕하세요. 멀티캠퍼스 풀스택 26차 하석준 입니다.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <!-- Language Section -->
+            <div class="skill-category">
+                <div class="icon-title">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Language</h3>
+                </div>
+                <div class="tech-stack">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                    <button>JavaScript</button>
+                    <button>Java</button>
+                    <button>SQL</button>
+                </div>
+            </div>
+
+            <!-- Frontend Section -->
+            <div class="skill-category">
+                <div class="icon-title">
+                    <i class="fab fa-html5"></i>
+                    <h3>Frontend</h3>
+                </div>
+                <div class="tech-stack">
+                    <button>JSP</button>
+                    <button>jQuery</button>
+                    <button>HTML5</button>
+                    <button>CSS3</button>
+                </div>
+            </div>
+
+            <!-- Backend Section -->
+            <div class="skill-category">
+                <div class="icon-title">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Backend</h3>
+                </div>
+                <div class="tech-stack">
+                    <button>Spring Framework</button>
+                    <button>Spring MVC</button>
+                    <button>JPA</button>
+                    <button>MyBatis</button>
+                    <button>Servlets</button>
+                </div>
+            </div>
+
+            <!-- Database Section -->
+            <div class="skill-category">
+                <div class="icon-title">
+                    <i class="fas fa-database"></i>
+                    <h3>Database</h3>
+                </div>
+                <div class="tech-stack">
+                    <button>Oracle</button>
+                </div>
+            </div>
+
+            <!-- Tools Section -->
+            <div class="skill-category">
+                <div class="icon-title">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools</h3>
+                </div>
+                <div class="tech-stack">
+                    <button>VS Code</button>
+                    <button>Eclipse</button>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>

@@ -1,55 +1,104 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+}
+
+header {
     background-color: #3e8e41;
     color: white;
     padding: 20px;
     text-align: center;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-size: 36px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     padding: 0;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline;
     margin: 0 15px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
-  }
-  
-  section {
+}
+
+section {
     padding: 40px 20px;
     margin: 20px 0;
-  }
-  
-  button {
+}
+
+#skills {
+    background-color: #f2f2f2;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.skill-category {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-title {
+    display: flex;
+    flex-direction: column; /* 아이콘과 제목을 세로로 정렬 */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill-category i {
+    font-size: 50px;
+    color: #3e8e41;
+}
+
+.skill-category h3 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tech-stack button {
     background-color: #3e8e41;
     color: white;
-    padding: 10px 20px;
+    padding: 8px 15px;
     border: none;
+    border-radius: 5px;
+    font-size: 14px;
     cursor: pointer;
-  }
-  
-  button:hover {
+}
+
+.tech-stack button:hover {
     background-color: #45a049;
-  }
-  
-  footer {
+}
+
+footer {
     background-color: #3e8e41;
     color: white;
     text-align: center;
@@ -57,5 +106,4 @@ body {
     position: fixed;
     width: 100%;
     bottom: 0;
-  }
-  
+}
